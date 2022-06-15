@@ -18,7 +18,7 @@ function find() { // EXERCISE A
     Return from this function the resulting dataset.
   */
  return db('schemes')
- .leftJoin('')
+ .leftJoin('steps')
 }
 
 function findById(scheme_id) { // EXERCISE B
